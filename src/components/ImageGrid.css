@@ -1,0 +1,17 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Six columns */
+  gap: 50px;/* Space between items */
+  width: 1200px;
+  position: relative;
+  left: 10rem;
+}
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
